@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="knml">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../knml.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

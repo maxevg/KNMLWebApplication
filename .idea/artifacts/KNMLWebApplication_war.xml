@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="KNMLWebApplication:war">
+    <output-path>$PROJECT_DIR$/out/artifacts/KNMLWebApplication_war</output-path>
+    <root id="archive" name="KNMLWebApplication_war.war">
+      <element id="artifact" artifact-name="KNMLWebApplication:war exploded" />
+    </root>
+  </artifact>
+</component>

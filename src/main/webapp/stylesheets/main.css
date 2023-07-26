@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    background: #ffffff;
+    font-family: sans-serif;
+}
+
+.toolbar {
+    width: 100%;
+    height: 75px;
+    padding: 15px;
+    text-align: center;
+    background-image: linear-gradient(to top right, #8A28FA, #F05930);
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    border-radius: 4px;
+    box-shadow: 0 2px 25px rgba(0, 0, 0, 0.2);
+}
+
+.toolbar a {
+    font-size: 45px;
+    color: #fff;
+    object-fit: contain;
+}
+
+.gridcontainer {
+    position: fixed;
+    left: 5%;
+    top: 15%;
+    height: 80%;
+    width: 90%;
+    padding-top: 1%;
+    text-align: center;
+    place-items: stretch;
+    background-color: #2d3b55;
+    border-radius: 4px;
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+}
+
+.gridcontainer > div {
+    width: 100%;
+    height: 100%;
+}
+
+.gridcontainer .action {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+}
+
+.gridcontainer .action input {
+    width: 50%;
+    border: none;
+    padding: 18px;
+    margin-left: 25%;
+    position: center;
+    font-family: sans-serif;
+    cursor: pointer;
+    text-transform: uppercase;
+    background: #ffffff;
+    color: #2d3b55;
+    border-radius: 4px;
+    letter-spacing: 0.2px;
+    outline: 0;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+
+.gridcontainer a {
+    font-size: 25px;
+    color: #fff;
+    object-fit: contain;
+}
+
+.gridcontainer .rows_int {
+    padding-top: 1%;
+    width: 30%;
+    height: 45%;
+    position: fixed;
+    text-align: center;
+    place-items: stretch;
+    background-color: #2d3b55;
+    display: grid;
+    grid-template-rows: auto;
+}
+
+.rows_int > div {
+    width: 100%;
+    height: 100%;
+}
+
+.gridcontainer .rows_slau {
+    padding-top: 1%;
+    width: 30%;
+    height: 60%;
+    position: fixed;
+    text-align: center;
+    place-items: stretch;
+    background-color: #2d3b55;
+    display: grid;
+    grid-template-rows: auto;
+}
+
+.rows_slau > div {
+    width: 100%;
+    height: 100%;
+}
+
+.gridcontainer .rows_decomp {
+    padding-top: 1%;
+    width: 30%;
+    height: 60%;
+    position: fixed;
+    text-align: center;
+    place-items: stretch;
+    background-color: #2d3b55;
+    display: grid;
+    grid-template-rows: auto;
+}
+
+.rows_decomp > div {
+    width: 100%;
+    height: 100%;
+}
